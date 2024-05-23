@@ -1,0 +1,78 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white !important;
+    /* Override default Bootstrap styles */
+    font-weight: bolder;
+}
+
+.navbar-light .navbar-brand {
+    color: white !important;
+    /* Ensure the navbar brand is also white */
+    font-weight: bolder;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    /* ensures the navbar sticks to the top */
+    width: 100%;
+    /* ensures the navbar spans the full width of the viewport */
+    z-index: 1020;
+    /* Bootstrap's default z-index for sticky top is 1020, ensure it is on top of other content */
+}
+
+.full-width-background {
+    background-image: url('../assets/group_photo.jpg');
+    /* Sets the background image */
+    background-size: cover;
+    /* Ensures the background image covers the full area of the div */
+    background-position: center;
+    /* Centers the background image */
+    background-repeat: no-repeat;
+    /* Prevents repeating the background image */
+}
+
+.collaboration-model-background {
+    background-image: url('../assets/collaboration_model.png');
+    /* Sets the background image */
+    background-size: contain;
+    /* Ensures the background image covers the full area of the div */
+    background-position: center;
+    /* Centers the background image */
+    background-repeat: no-repeat;
+    /* Prevents repeating the background image */
+}
+
+
+.image-background {
+    /* Sets the background image */
+    background-size: contain;
+    /* Ensures the background image covers the full area of the div */
+    background-position: left;
+    background-position: top;
+    /* Centers the background image */
+    background-repeat: no-repeat;
+    /* Prevents repeating the background image */
+}
+
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.gray-out {
+    opacity: 0.5;
+}
+
+.hover-profile {
+    transition: opacity 0.3s;
+    cursor: pointer;
+}
+
+.hover-approach {
+    transition: opacity 0.3s;
+    cursor: pointer;
+}
